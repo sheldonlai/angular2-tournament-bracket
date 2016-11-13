@@ -1,0 +1,112 @@
+div {
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    display: block;
+    box-sizing: border-box;
+}
+span {
+    box-sizing: border-box;
+}
+
+.round {
+    position: relative;
+    width: 140px;
+    float: left;
+}
+
+div {
+    display: block;
+}
+
+.team-block {
+    height: 24px;
+}
+
+.team-block:nth-child(2){
+    border-top: 2px solid #888888;
+    height: 26px;
+}
+
+.score {
+    float: right;
+    background-color: #ebebeb;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    border-left: 1px solid #888888;
+}
+
+.match {
+    position: relative;
+    border: 1px solid #888888;
+    height: 52px;
+}
+
+.team {
+    height: 24px;
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.team.lose {
+    background-color: #DDD;
+    color: #999;
+}
+
+.team.win {
+    font-weight: bold;
+}
+
+.score {
+    height: 24px;
+    display: inline-block;
+}
+
+#tournament-bracket {
+    font-family: Calibri;
+}
+
+.score-input {
+    width : 31px;
+    height: 18px;
+}
+
+.separator{
+    float: left;
+    position: relative;
+    width: 20px;
+    margin-top : 25px;
+}
+
+.upwards {
+    border-right: 2px #888888 solid;
+}
+
+.downwards {
+    border-top: 2px #888888 solid;
+    border-right: 2px #888888 solid;
+}
+
+.horizontal {
+    border-top: 2px #888888 solid;
+}
+
+
+.separator-block{
+    width: 100%;
+}
+
+#container{
+    overflow-x: scroll;
+}
+
+.team select {
+    width: 100%;
+    height: 24px;
+}
+
+.team-header {
+    height: 20px;
+}

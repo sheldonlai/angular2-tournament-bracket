@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <title>Bracket</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="demo/node_modules/zone.js/dist/zone.js"></script>
+    <script src="demo/node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="demo/node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="demo/systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err){ console.error(err); });
+    </script>
+</head>
+<body>
+<my-app>Loading ...</my-app>
+</body>
+</html>
